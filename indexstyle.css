@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+ *{
+    box-sizing: border-box;
+	font-family: "Grandiflora One Regular", "BD Megalona DEMO Personal Use Only Regular Italic";
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #9BADCA;
+}
+.flex-container > div {
+    background-color: #E1E5EF;
+    margin: 10px;
+    padding: 20px;
+    font-size: 16px;
+}
+.stack > div {
+    flex-direction: column;
+    padding: 20px;
+}
+#container {
+    width: 800px;
+    margin: 0 auto;
+}
+.section_L {
+    flex-grow: 3;
+}
+.section_R {
+    flex-grow: 2;
+}
+.flex-responsive {
+    flex: 30%;
+}
+.text {
+	color: #657896;
+
+}
+@media (max-width: 799px) {
+#container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: bisque;
+}
+.flex-responsive {
+    flex: 100%;
+}
+	.flex-responsive {
+    flex: 100%;
+}
+	.flex-container {
+  display: flex;
+  flex-direction: row; /* Display items in rows */
+}
+
+.flex-item {
+  /* Additional styling for flex items */
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+	#accordion {
+  width: 400px; /* Adjust width as needed */
+  margin: 20px auto; /* Center the Accordion widget */
+}
+
+#accordion h3 {
+  background-color: #9BADCA; /* Background color for accordion headers */
+  color: #333; /* Text color for accordion headers */
+  padding: 10px; /* Add padding to accordion headers */
+  margin: 0; /* Remove margin from accordion headers */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+#accordion div {
+  background-color: #E1E5EF; /* Background color for accordion content */
+  padding: 10px; /* Add padding to accordion content */
+  border: 1px solid #ccc; /* Add border to accordion content */
+}
+
+}

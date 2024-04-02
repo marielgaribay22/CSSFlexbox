@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Playing with Flexbox</title>
+<style>
+</style>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="styles.css"> <!-- Link to custom CSS file -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <script>
+    $( function() {
+      $( "#accordion" ).accordion();
+    } );
+  </script>
+ 
+
+ 
+<link href="indexstyle.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+    background-color: #F9F5E0;
+}
+</style>
+</head>
+	
+<body>
+	
+	
+<div id="container">
+	<div class= "text">
+		<h1>A Guide to Understanding CSS Flexbox</h1> </div>
+       <p>CSS Flexbox is a layout model that provides a more efficient way to design complex layouts in CSS, especially for building dynamic and responsive web applications. Flexbox allows you to create flexible and dynamic layouts without relying on floats or positioning. </p>
+	
+  <div class="flex-container">
+    <div class="section_L">Key features of CSS Flexbox include:</div>
+    <div class="stack section_R">
+      <div>Flex Container: Any HTML element can become a flex container by setting its display property to flex or inline-flex. The elements inside a flex container are called flex items.</div>
+      <div>Justify Content: The justify-content property allows you to align flex items along the main axis of the flex container. It provides options such as flex-start, flex-end, center, space-between, and space-around.</div>
+		
+	  <div>Align Items and Align Self: The align-items property aligns flex items along the cross axis of the flex container, while the align-self property allows you to override the alignment for individual flex items.</div>
+		
+	  <div>Flex Wrap: By default, flex items are laid out in a single line. However, you can enable wrapping using the flex-wrap property to allow flex items to wrap onto multiple lines as needed.</div>
+    </div>
+  </div>
+	
+  <p> Flexbox revolves around two main concepts:  </p>
+  <div class="flex-container">
+    <div class="section_L"><b>flex containers and flex items.</b> </div>
+    <div class="stack section_R">
+      <div>Flex containers are parent elements that contain flex items and establish a flex formatting context.
+</div>
+      <div>Flex items are the children of flex containers and can be laid out along the main axis or the cross axis.</div>
+    </div>
+  </div>
+	
+  <p></p>
+  <div class="flex-container">
+    <div class="section_L"><b>Responsive Design</b></div>
+	  
+    <div class="stack section_R">
+      <div>
+        <ul>
+          <li>Flexible grids and card layouts can be created using Flexbox, where elements within a grid or card can be dynamically sized and spaced based on available space.</li>
+			
+          <li>Media queries can be used in conjunction with Flexbox to adjust flex properties based on viewport size, allowing for responsive design patterns like adjusting column widths, stacking content on smaller screens, and changing alignment and spacing.</li>
+        </ul>
+      </div>
+    </div>
+	  
+    <div class="section_L">With Flexbox, you can easily create complex layouts that adapt to different screen sizes and devices, making it ideal for building responsive web designs.</div>
+  </div>
+	
+	 <p> Three Pros of Flexbox for web layout </p>
+	
+	<div id="accordion">
+  <h3>Browser Support and Compatibility</h3>
+  <div>
+    <p>Flexbox enjoys widespread support in modern browsers, but there may be compatibility issues or bugs in older browsers.</p>
+  </div>
+  <h3>Simplified Layout</h3>
+  <div>
+    <p>Flexbox provides a simplified way to create complex layouts compared to traditional CSS layout methods like floats and positioning. With Flexbox, you can easily align, distribute, and reorder elements within a container using a set of intuitive properties.</p>
+  </div>
+  <h3>Alignment Control</h3>
+  <div>
+    <p>Flexbox offers powerful alignment control for both the main axis and the cross axis, allowing you to easily align and center items within a flex container. With properties like justify-content and align-items, you can control the alignment of items along the main axis and cross axis respectively.</p>
+  </div>
+</div>
+	
+	
+  <p> </p>
+	
+	<div class="flex-container">
+    <div class="flex-responsive">Flexbox is all about arranging a group of items in a row or column, and giving us a ridiculous amount of control over the distribution and alignment of those items. As the name suggests, Flexbox is all about flexibility. We can control whether items grow or shrink, how the extra space is distributed, and more.
+	</div>
+  </div>
+	
+	<div class="flex-container">
+  <div class="flex-item">Thanks</div>
+  <div class="flex-item">For</div>
+  <div class="flex-item">Reading!</div>
+</div>
+
+	
+	
+</div>
+</body>
+</html>
